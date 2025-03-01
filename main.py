@@ -5,7 +5,7 @@ from bot_logic import *  # Импортируем функции из bot_logic
 from model import *
 
 # Замени 'TOKEN' на токен твоего бота
-bot = telebot.TeleBot("7671973249:AAGTt8DyvMLL9Pw2XUmmKoswFzHUuRys8yo")
+bot = telebot.TeleBot("TOKEN")
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
